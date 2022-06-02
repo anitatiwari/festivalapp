@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<header class="p-3 text-xl text-white ">
+    <nav class="flex justify-start gap-9 list-none ">
+      <li>        <a href="index.html">Home</a> </li>
+        <li>        <a href="index.html#lineUp">Line Up</a>
+        </li>
+     <li>        <a href="schedule.html">Schedule</a>
+     </li>
+
+    </nav>
+  </header>
+<body class="text-white text-xl text-center">
+
+
+    <div class="schedule">
+        <h1 class="text-4xl text-white text-center m-2 ">Schedule</h1>
+        <div class="tab flex justify-start p-4 ">
+            <button id="tablinks1" class="p-3 rounded ">Jotunheim</button>
+            <button id="tablinks2" class="p-3 rounded">Midgard</button>
+            <button id="tablinks3" class="p-3 rounded">Vanaheim</button>
+        </div>
+        <div class="Jotunheim" id="content1">
+            
+        </div>
+
+        <div class="Midgard" id="content2">
+
+        </div>
+
+
+        <div class="Vanaheim" id="content3">
+
+        </div>
+    </div>
+
+    <div class="time m-6 " hidden>
+        <div class="forbg">
+        <h3 class="day text-3xl m-2 ">Monday </h3>
+        <div id="mon" class="m-5">
+            <ul class="grid md:grid-cols-4"></ul>
+        </div>
+
+        <h2 class="day text-3xl  m-2 ">Tuesday: </h2>
+        <div id="tue" class="">
+            <ul class="grid md:grid-cols-4"></ul>
+
+        </div>
+
+        <h2 class="day text-3xl  m-2 ">Wednesday: </h2>
+        <div id="wed" class="m-5">
+            <ul class="grid md:grid-cols-4"></ul>
+
+        </div>
+
+        <h2 class="day text-3xl  m-2 ">Thursday: </h2>
+        <div id="thu" class="m-5">
+            <ul class="grid md:grid-cols-4"></ul>
+
+        </div>
+
+        <h2 class="day text-3xl  m-2 ">Friday: </h2>
+        <div id="fri" class="m-5">
+            <ul class="grid md:grid-cols-4"></ul>
+        </div>
+
+        <h2 class="day text-3xl  m-2 text-center">Saturday:</h2>
+        <div id="sat" class="m-5">
+            <ul class="grid md:grid-cols-4"></ul>
+        </div>
+
+        <h2 class="day text-3xl  m-2 ">Sunday: </h2>
+        <div id="sun" class="m-5">
+            <ul class="grid md:grid-cols-4"></ul>
+        </div>
+
+    </div>
+
+</div>
+    
+    
+    
+    <script type="module" src="/schedule.js"></script>
+  
+</body>
+</html>

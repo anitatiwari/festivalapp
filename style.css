@@ -1,0 +1,108 @@
+
+body{
+  background: rgb(27,91,77);
+  background: linear-gradient(121deg, rgba(27,91,77,1) 4%, rgba(49,143,86,1) 17%, rgba(88,21,83,1) 50%, rgba(186,138,57,1) 100%, rgba(95,119,198,1) 100%);
+}
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.elementcontainer{
+
+
+
+
+margin: 6em;
+}
+.getTicket{
+display: block;
+margin: 0 auto ;
+
+}
+.stylethis3{
+  font-size: 1em;
+  color: rgb(201, 204, 206);
+  font-weight: 600;
+}
+
+.scheduleList{
+  margin: 1em;
+
+
+}
+.forbg{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.day{
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(67, 66, 66, 0.5);
+  pointer-events: none;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.logo{
+  display: flex;
+  justify-content: flex-end;
+  }
+  .tab button {
+    background-color: inherit;
+  
+    border: 2px solid #edeaebbb;
+    border-radius: 10%;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
