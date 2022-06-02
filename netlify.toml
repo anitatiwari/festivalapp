@@ -1,5 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/schedule.html"
   status = 200
-  
